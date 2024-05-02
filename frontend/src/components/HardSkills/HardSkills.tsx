@@ -13,7 +13,7 @@ function HardSkills() {
     <section id="hardskills">
       <h2>Minhas Stacks  💼</h2>
       <div className="hardskills-div-mae">
-        <div>
+        <div className="hardskills-fundamentos">
           <h3>Fundamentos do Desenvolvimento Web</h3>
           <ul>
             <StackItem icon={ <FaTerminal /> } text="Unix & Shell" />
@@ -26,7 +26,7 @@ function HardSkills() {
           </ul>
         </div>
 
-        <div>
+        <div className="hardskills-frontend">
           <h3>Desenvolvimento Front-end</h3>
           <ul>
             <StackItem icon={ <BsDatabaseFillDown /> } text="Requisições a APIs" />
@@ -42,7 +42,7 @@ function HardSkills() {
           </ul>
         </div>
 
-        <div>
+        <div className="hardskills-backend">
           <h3>Desenvolvimento Backend</h3>
           <ul>
             <StackItem icon={ <FaNodeJs /> } text="Node.js" />

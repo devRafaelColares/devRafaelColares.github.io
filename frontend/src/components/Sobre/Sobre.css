@@ -19,6 +19,10 @@
 
 .descricao-sobre {
   flex: 1;
+  border-radius: 15px;
+  padding: 35px;
+  margin: 15px;
+  background: linear-gradient(140deg, rgba(156, 176, 233, 0.6), rgba(39, 38, 38, 0.6));
 }
 
 .descricao-sobre h1 {
@@ -28,7 +32,6 @@
 .descricao-sobre p {
   margin-top: 0;
   text-align: justify;
-  margin-right: 40px;
 }
 
 h3 {
