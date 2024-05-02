@@ -1,8 +1,15 @@
+import backgroundImage from './assets/image.png';
 import * as components from './utils/imports';
 
 function App() {
   return (
-    <div>
+    <div
+      style={ { backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        width: '100%',
+        height: '100vh' } }
+    >
       <div id="navbar">
         <components.NavBar />
       </div>

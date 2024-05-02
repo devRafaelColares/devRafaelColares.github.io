@@ -1,3 +1,5 @@
+import image from './RafaImg.jpeg'
+
 function Sobre() {
   return (
     <section id="sobre">
@@ -5,11 +7,19 @@ function Sobre() {
       <div>
         <div className="cabeçalho-sobre">
           <div>
-            <img src="./image.png" alt="minha imagem" />
+            <img src={image} alt="minha imagem" height={450} />
           </div>
           <div>
+
+            <div>
             <h3>Rafael Colares</h3>
             <h3>Desenvolvedor Web</h3>
+            </div>
+            <div>
+              <h3>Idiomas</h3>
+              <span>🇧🇷 Pt-Br - Nativo</span>
+              <span>🇺🇸 En - Intermediário</span>
+            </div>
           </div>
         </div>
         <p>

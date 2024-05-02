@@ -1,3 +1,4 @@
+
 :root {
     --backgroundcollor-primary: black;
     --minha-corVerde: #47c705;
@@ -5,22 +6,8 @@
 
 }
 
-/* No seu arquivo de estilos CSS (src/index.css) */
-
-.secao-com-background {
-  /* Define a imagem de fundo e configurações */
-  background-image: url('../assets/image.png');
-  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
-  background-position: center; /* Centraliza a imagem no elemento */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
-  /* Outras configurações opcionais */
-  background-color: #f0f0f0; /* Cor de fundo de fallback, caso a imagem não seja carregada */
-  /* Adicione outras propriedades de estilo conforme necessário */
-}
-
 body {
-    /* background: var(--backgroundcollor-primary); */
-    background-image: ;
+    background-color: var(--backgroundcollor-primary);    
     color: var(--minha-corBranca);
     font-family: Arial, sans-serif;
 }
@@ -30,22 +17,22 @@ body {
 }
 
 #navbar {
-    margin-bottom: 20px; /* Adicione margem na parte inferior para evitar sobreposição */
+    margin-bottom: 20px;
   }
   
   #contato {
-    margin-top: 20px; /* Adicione margem na parte superior para evitar sobreposição */
+    margin-top: 20px; 
   }
   
   #hardskills {
-    margin-top: 20px; /* Adicione margem na parte superior para evitar sobreposição */
+    margin-top: 20px; 
   }
   
   #projetos {
-    margin-top: 20px; /* Adicione margem na parte superior para evitar sobreposição */
+    margin-top: 20px; 
   }
   
   #footer {
-    margin-top: 20px; /* Adicione margem na parte superior para evitar sobreposição */
+    margin-top: 20px;
   }
   

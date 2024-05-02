@@ -10,60 +10,47 @@ function Contato() {
   return (
     <section id="contato">
       <h1>Contato</h1>
-      <div>
-        <h3>Redes Sociais</h3>
-        <div className="icon">
+      <div className="icon">
+        <a
+          href="mailto:rafaelcolares.dev@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Enviar e-mail para Rafael Colares"
+        >
           <IconContext.Provider value={ { size: '1.5em' } }>
             <RiMailLine />
           </IconContext.Provider>
-          <a
-            href="mailto:rafaelcolares.dev@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            E-mail
-
-          </a>
-        </div>
-        <div className="icon">
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=5538988477728"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Enviar mensagem pelo WhatsApp para Rafael Colares"
+        >
           <IconContext.Provider value={ { size: '1.5em' } }>
             <RiWhatsappLine />
           </IconContext.Provider>
-          <a
-            href="https://api.whatsapp.com/send?phone=5538988477728"
-            target="_blank"
-            rel="noreferrer"
-          >
-            WhatsApp
-
-          </a>
-        </div>
-        <div className="icon">
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rafael-colares/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Visitar o perfil de Rafael Colares no LinkedIn"
+        >
           <IconContext.Provider value={ { size: '1.5em' } }>
             <RiLinkedinLine />
           </IconContext.Provider>
-          <a
-            href="https://www.linkedin.com/in/rafael-colares/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-
-          </a>
-        </div>
-        <div className="icon">
+        </a>
+        <a
+          href="https://github.com/devRafaelColares"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Visitar o perfil de Rafael Colares no GitHub"
+        >
           <IconContext.Provider value={ { size: '1.5em' } }>
             <RiGithubLine />
           </IconContext.Provider>
-          <a
-            href="https://github.com/devRafaelColares"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-
-          </a>
-        </div>
+        </a>
       </div>
     </section>
   );
