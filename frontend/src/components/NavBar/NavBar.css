@@ -1,0 +1,66 @@
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ajuste conforme necessário para evitar sobreposição */
+    background-color: var(--backgroundcollor-primary); /* Remova a cor de fundo ou ajuste para transparente */
+    background: linear-gradient(to top, transparent, black);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Adicione uma sombra sutil, se desejar */
+  }
+  
+  .sticky-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent; /* Remova a cor de fundo ou ajuste para transparente */
+  }
+  
+  .sticky-header ul {
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .sticky-header ul li {
+    margin-right: 1.5rem;
+  }
+  
+  .sticky-header a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: none;
+  }
+  
+  .sticky-header a:hover {
+    color: #535bf2;
+    &:hover {
+      color: rgb(93, 57, 126);
+    }
+
+  }
+  
+  .sticky-header button {
+    border-radius: 20px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    &:hover {
+      color:#535bf2;
+      border-color: #646cff;
+    }
+  }
+  
+  .sticky-header {
+    /* Mantenha os estilos existentes aqui */
+    transition: transform 0.6s ease-in-out; /* Adicione uma transição suave para o efeito de esconder/aparecer */
+  }
+  
+  .sticky-header.hidden {
+    transform: translateY(-100%);
+  }
+  
