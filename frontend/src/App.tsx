@@ -4,11 +4,14 @@ import * as components from './utils/imports';
 function App() {
   return (
     <div
-      style={ { backgroundImage: `url(${backgroundImage})`,
+      style={ {
+        backgroundImage: `linear-gradient(
+          to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         width: '100%',
-        height: '100vh' } }
+        height: '100%',
+      } }
     >
       <div id="navbar">
         <components.NavBar />

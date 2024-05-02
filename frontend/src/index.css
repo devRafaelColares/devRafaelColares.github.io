@@ -8,31 +8,26 @@
 
 body {
     background-color: var(--backgroundcollor-primary);    
-    color: var(--minha-corBranca);
-    font-family: Arial, sans-serif;
+    color: rgb(221, 218, 218);
+    font-family: 'Inter', sans-serif;
+    padding: 0; 
 }
 
 #sobre {
- margin-top: 70px;
 }
 
 #navbar {
-    margin-bottom: 20px;
   }
   
   #contato {
-    margin-top: 20px; 
   }
   
   #hardskills {
-    margin-top: 20px; 
   }
   
   #projetos {
-    margin-top: 20px; 
   }
   
   #footer {
-    margin-top: 20px;
   }
   

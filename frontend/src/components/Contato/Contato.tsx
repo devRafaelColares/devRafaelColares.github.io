@@ -1,4 +1,5 @@
 import { IconContext } from 'react-icons';
+import './Contatos.css';
 import {
   RiMailLine,
   RiWhatsappLine,
