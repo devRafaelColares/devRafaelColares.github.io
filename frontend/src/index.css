@@ -13,21 +13,20 @@ body {
     padding: 0; 
 }
 
-#sobre {
-}
+.cards-div-mae {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
 
-#navbar {
-  }
+  .cards {
+    flex: 1;
+    padding: 10px;
+    margin: 35px;
+    border-radius: 15px;
+    background: linear-gradient(140deg, rgba(156, 176, 233, 0.6), rgba(39, 38, 38, 0.6));
+}
   
-  #contato {
-  }
-  
-  #hardskills {
-  }
-  
-  #projetos {
-  }
-  
-  #footer {
-  }
+
   
