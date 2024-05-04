@@ -30,3 +30,12 @@
     padding: 20px;
     margin: 10px;
   }
+
+a {
+  color: rgb(221, 218, 218);
+  text-decoration: none;
+}
+  
+img {
+  height: 180px;
+}

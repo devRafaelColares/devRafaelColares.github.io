@@ -7,7 +7,7 @@ function Sobre() {
       <div id="img-sobre">
         <img src={ image } alt="minha imagem" />
       </div>
-      <div className="descricao-sobre">
+      <div className="descricao-sobre highlight">
         <h1>Oii, eu sou Rafael Colares! 👋</h1>
         <div>
           <h3>Desenvolvedor Web 💻</h3>

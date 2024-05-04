@@ -11,7 +11,7 @@ function Contato() {
   return (
     <section id="contato">
       <h1>Contato</h1>
-      <div className="icon">
+      <div className="icon highlight">
         <a
           href="mailto:rafaelcolares.dev@gmail.com"
           target="_blank"
