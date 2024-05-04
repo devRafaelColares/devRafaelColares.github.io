@@ -52,6 +52,13 @@ function Projetos() {
       linkOnline: 'link_do_projeto_online_1',
       linkGithub: 'link_do_repositorio_github_1',
     },
+    {
+      nome: 'App Prestige Manager',
+      descricao: 'App Android - React Native',
+      imagem: image,
+      linkOnline: 'link_do_projeto_online_1',
+      linkGithub: 'link_do_repositorio_github_1',
+    },
   ];
 
   return (

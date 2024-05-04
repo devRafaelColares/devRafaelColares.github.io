@@ -35,5 +35,5 @@ body {
   
   .highlight-cards:hover {
     box-shadow: none;
-    border: 1px solid #eb1506;
-  }
+    border: solid 1px #646cff;
+}
