@@ -1,0 +1,41 @@
+#projetos {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #projetos h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  #projetos h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  #projetos div {
+    margin-top: 20px;
+  }
+  
+  #projetos div h3 {
+    margin-bottom: 5px;
+  }
+  
+  #projetos div p {
+    margin-bottom: 10px;
+  }
+  
+  .projeto-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+  }
+
+a {
+  color: rgb(221, 218, 218);
+  text-decoration: none;
+}
+  
+img {
+  height: 180px;
+}

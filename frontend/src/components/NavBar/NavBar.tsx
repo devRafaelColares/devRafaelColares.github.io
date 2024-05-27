@@ -28,7 +28,6 @@ function Header() {
             </Link>
           </li>
         </ul>
-        <button>theme</button>
       </nav>
     </header>
   );

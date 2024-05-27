@@ -4,35 +4,36 @@
     --minha-corVerde: #47c705;
     --minha-corBranca: #FFFFFF;
 
+
 }
 
 body {
     background-color: var(--backgroundcollor-primary);    
-    color: var(--minha-corBranca);
-    font-family: Arial, sans-serif;
+    color: rgb(221, 218, 218);
+    font-family: 'Inter', sans-serif;
+    padding: 0; 
 }
 
-#sobre {
- margin-top: 70px;
-}
+.cards-div-mae {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
 
-#navbar {
-    margin-bottom: 20px;
+  .cards {
+    flex: 1;
+    padding: 10px;
+    margin: 35px;
+    border-radius: 15px;
+    background: linear-gradient(140deg, rgba(156, 176, 233, 0.6), rgba(39, 38, 38, 0.6));
+}
+  
+.highlight {
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.3);
   }
   
-  #contato {
-    margin-top: 20px; 
-  }
-  
-  #hardskills {
-    margin-top: 20px; 
-  }
-  
-  #projetos {
-    margin-top: 20px; 
-  }
-  
-  #footer {
-    margin-top: 20px;
-  }
-  
+  .highlight-cards:hover {
+    box-shadow: none;
+    border: solid 1px #646cff;
+}
