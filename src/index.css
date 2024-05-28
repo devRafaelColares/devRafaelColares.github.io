@@ -1,39 +1,108 @@
-
 :root {
-    --backgroundcollor-primary: black;
-    --minha-corVerde: #47c705;
-    --minha-corBranca: #FFFFFF;
-
-
+  --backgroundcolor-primary: black;
+  --color-white: #FFFFFF;
+  --color-light: #8d90c2;
+  --color-hover: #eb1506;
+  --color-border: #646cff;
+  --color-gradient-start: rgba(156, 176, 233, 0.6);
+  --color-gradient-end: rgba(39, 38, 38, 0.6);
+  --color-gradient-background-start: #1e3c72;
+  --color-gradient-background-end: #2a5298;
 }
 
 body {
-    background-color: var(--backgroundcollor-primary);    
-    color: rgb(221, 218, 218);
-    font-family: 'Inter', sans-serif;
-    padding: 0; 
+  background-color: var(--backgroundcolor-primary);
+  color: rgb(221, 218, 218);
+  font-family: 'Inter', sans-serif;
+  padding: 0;
 }
 
-.cards-div-mae {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-  }
+a {
+  color: rgb(221, 218, 218);
+  text-decoration: none;
+}
 
+h1, h2, h3 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+p {
+  padding-top: 20px;
+}
+
+span {
+  display: block;
+}
+
+.cards-div-mae, .hardskills-div-mae {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards, .descricao-sobre {
+  flex: 1;
+  padding: 10px;
+  margin: 35px;
+  border-radius: 15px;
+  background: linear-gradient(140deg, var(--color-gradient-start), var(--color-gradient-end));
+}
+
+.highlight {
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.3);
+}
+
+.sticky-header a:hover, #contato .icon a:hover {
+  color: var(--color-hover);
+}
+
+.highlight-cards {
+  transition: all 0.4s ease;
+}
+
+.highlight-cards:hover {
+  border: solid 1px var(--color-border);
+  box-shadow: none;
+  background: linear-gradient(140deg, var(--color-gradient-start), var(--color-gradient-end));
+  transform: scale(1.05);
+}
+
+img {
+  height: 180px;
+}
+
+@media screen and (min-width: 768px) {
   .cards {
     flex: 1;
-    padding: 10px;
-    margin: 35px;
-    border-radius: 15px;
-    background: linear-gradient(140deg, rgba(156, 176, 233, 0.6), rgba(39, 38, 38, 0.6));
-}
-  
-.highlight {
-    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.3);
   }
-  
-  .highlight-cards:hover {
-    box-shadow: none;
-    border: solid 1px #646cff;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+    background: linear-gradient(to right, var(--color-gradient-background-start), var(--color-gradient-background-end));
+  }
+
+  .cards, .descricao-sobre {
+    margin: 10px;
+  }
+
+  .sticky-header {
+    flex-direction: column;
+  }
+
+  .sticky-header nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sticky-header ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .sticky-header ul li {
+    margin: 5px 0;
+  }
 }

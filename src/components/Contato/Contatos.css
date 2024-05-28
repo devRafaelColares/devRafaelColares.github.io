@@ -1,26 +1,20 @@
 #contato {
-    text-align: center;
-  }
-  
-  #contato h1 {
-    margin-bottom: 30px;
-    font-size: 2rem;
-  }
-  
-  #contato .icon {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  #contato .icon a {
-    color: #8d90c2;
-    margin: 0 35px;
-    font-size: 2.5rem;
-  }
-  
-  
-  #contato .icon a:hover {
-    color: #eb1506;
-  }
-  
+  text-align: center;
+}
+
+#contato h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+#contato .icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#contato .icon a {
+  color: var(--color-light);
+  margin: 0 3%;
+  font-size: 2.5rem;
+}

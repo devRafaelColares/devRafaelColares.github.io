@@ -23,7 +23,7 @@ function Projetos() {
   ];
 
   return (
-    <section id="cards-div-mae">
+    <section id="projetos">
       <h1>Projetos</h1>
       <div className="cards-div-mae">
         {projetos.map((projeto, index) => (

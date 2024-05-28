@@ -1,17 +1,10 @@
-import backgroundImage from './assets/image.png';
+import './app.css';
 import * as components from './utils/imports';
 
 function App() {
   return (
     <div
-      style={ {
-        backgroundImage: `linear-gradient(
-          to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        width: '100%',
-        height: '100%',
-      } }
+      className="app-background"
     >
       <div id="navbar">
         <components.NavBar />
