@@ -2,21 +2,23 @@ import image from '../../assets/image.png';
 import './Projetos.css';
 
 function Projetos() {
+  const gitHubLink = 'https://github.com/devRafaelColares';
+
   const projetos = [
     {
       id: 1,
-      nome: 'App Prestige Manager',
-      descricao: 'App Android - React Native',
+      nome: 'Conheça meu GitHub',
+      descricao: '',
       imagem: image,
-      linkOnline: 'link_do_projeto_online_1',
-      linkGithub: 'link_do_repositorio_github_1',
+      linkOnline: gitHubLink,
+      linkGithub: gitHubLink,
     },
     {
-      nome: 'App Prestige Manager',
-      descricao: 'App Android - React Native',
+      nome: 'Conheça meu GitHub',
+      descricao: '',
       imagem: image,
-      linkOnline: 'link_do_projeto_online_1',
-      linkGithub: 'link_do_repositorio_github_1',
+      linkOnline: gitHubLink,
+      linkGithub: gitHubLink,
     },
   ];
 
