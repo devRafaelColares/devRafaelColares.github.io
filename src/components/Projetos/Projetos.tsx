@@ -4,6 +4,7 @@ import './Projetos.css';
 function Projetos() {
   const projetos = [
     {
+      id: 1,
       nome: 'App Prestige Manager',
       descricao: 'App Android - React Native',
       imagem: image,
@@ -11,7 +12,6 @@ function Projetos() {
       linkGithub: 'link_do_repositorio_github_1',
     },
     {
-      // id missing
       nome: 'App Prestige Manager',
       descricao: 'App Android - React Native',
       imagem: image,
