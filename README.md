@@ -1,41 +1,30 @@
-# Meu Portfólio de Desenvolvedor
+# React + TypeScript + Vite
 
-## Visão Geral
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Este projeto é um portfólio pessoal que apresenta minhas habilidades, projetos e informações de contato. O portfólio foi desenvolvido usando React e inclui diversas seções para descrever minhas competências técnicas, experiências e formas de entrar em contato.
+Currently, two official plugins are available:
 
-## Estrutura do Projeto
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- **App.tsx:** Componente principal que organiza e renderiza todas as outras seções.
-- **Contato.tsx:** Componente que exibe as informações de contato.
-- **Footer.tsx:** Componente do rodapé do site.
-- **HardSkills.tsx:** Componente que lista as habilidades técnicas.
-- **Header.tsx:** Componente da barra de navegação.
-- **Projetos.tsx:** Componente que exibe os projetos realizados.
-- **Sobre.tsx:** Componente que apresenta uma descrição sobre mim.
+## Expanding the ESLint configuration
 
-## Execução do Projeto
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-### Pré-requisitos
+- Configure the top-level `parserOptions` property like this:
 
-- Node.js
-- npm
-
-### Instalação:
-
-1. Clone o repositório: 
-   ```bash
-   git clone git@github.com:devRafaelColares/devRafaelColares.github.io.git
-2. Acesse os diretórios:
-```bash
-   cd devRafaelColares.github.io/ && cd frontend/
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+  },
+}
 ```
-3. Instale as dependências:
-```bash
-   npm install
-```
-4. Execute a aplicação:
-```bash
-   npm run dev
-```
-5. Acesse http://localhost:5173/ no seu navegador para visualizar a aplicação.
+
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
