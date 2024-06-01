@@ -24,7 +24,7 @@ Este projeto é um portfólio pessoal que apresenta minhas habilidades, projetos
 ### Instalação:
 
 1. Clone o repositório: 
-   ```bash
+```bash
    git clone git@github.com:devRafaelColares/devRafaelColares.github.io.git
 2. Acesse os diretórios:
 ```bash
@@ -39,3 +39,4 @@ Este projeto é um portfólio pessoal que apresenta minhas habilidades, projetos
    npm run dev
 ```
 5. Acesse http://localhost:5173/ no seu navegador para visualizar a aplicação.
+6. Para acessar o projeto onlie: https://devrafaelcolares.github.io/
