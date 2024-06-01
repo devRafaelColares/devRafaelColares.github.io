@@ -1,4 +1,9 @@
-import image from '../../assets/image.png';
+import trybeTunes from '../../assets/imgs/trybeTunes.png';
+import appdereceitas from '../../assets/imgs/appdereceitas.png';
+import starwarsplanets from '../../assets/imgs/starwarsplanets.png';
+import trybewallet from '../../assets/imgs/trybewallet.png';
+import onlinestore from '../../assets/imgs/onlinestore.png';
+import passwordmanager from '../../assets/imgs/passwordmanager.png';
 import './Projetos.css';
 
 function Projetos() {
@@ -7,16 +12,56 @@ function Projetos() {
   const projetos = [
     {
       id: 1,
-      nome: 'Conheça meu GitHub',
-      descricao: '',
-      imagem: image,
-      linkOnline: gitHubLink,
-      linkGithub: gitHubLink,
+      nome: 'app de musicas TrybeTunes',
+      descricao: 'Front-end',
+      imagem: trybeTunes,
+      linkOnline: 'https://github.com/devRafaelColares/app-de-musicas-TrybeTunes',
+      linkGithub: 'https://github.com/devRafaelColares/app-de-musicas-TrybeTunes',
+    },
+    {
+      id: 2,
+      nome: 'app Recipes',
+      descricao: 'Front-end',
+      imagem: appdereceitas,
+      linkOnline: 'https://github.com/devRafaelColares/app-de-receitas-em-grupo',
+      linkGithub: 'https://github.com/devRafaelColares/app-de-receitas-em-grupo',
+    },
+    {
+      id: 3,
+      nome: 'app Serach Starwars Planets',
+      descricao: 'Front-end',
+      imagem: starwarsplanets,
+      linkOnline: 'https://github.com/devRafaelColares/app-serach-starwars-planets',
+      linkGithub: 'https://github.com/devRafaelColares/app-serach-starwars-planets',
+    },
+    {
+      id: 4,
+      nome: 'app Financas Trybewallet',
+      descricao: 'Front-end',
+      imagem: trybewallet,
+      linkOnline: 'https://github.com/devRafaelColares/app-financas-trybewallet',
+      linkGithub: 'https://github.com/devRafaelColares/app-financas-trybewallet',
+    },
+    {
+      id: 5,
+      nome: 'app Online Store ',
+      descricao: 'Front-end',
+      imagem: onlinestore,
+      linkOnline: 'https://github.com/devRafaelColares/app-em-grupo-online-store',
+      linkGithub: 'https://github.com/devRafaelColares/app-em-grupo-online-store',
+    },
+    {
+      id: 6,
+      nome: 'app Password Manager',
+      descricao: 'Front-end',
+      imagem: passwordmanager,
+      linkOnline: 'https://github.com/devRafaelColares/app-password-manager',
+      linkGithub: 'https://github.com/devRafaelColares/app-password-manager',
     },
     {
       nome: 'Conheça meu GitHub',
       descricao: '',
-      imagem: image,
+      imagem: '',
       linkOnline: gitHubLink,
       linkGithub: gitHubLink,
     },
@@ -53,7 +98,11 @@ function Projetos() {
                 justifyContent: 'center',
                 alignItems: 'center' } }
             >
-              <h3>Em breve novos projetos!</h3>
+              <h3>
+                <a href={ projeto.linkGithub }>
+                  Em breve novos projetos!
+                </a>
+              </h3>
             </div>
           )
         ))}
